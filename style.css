@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.template-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.template-grid .div-1{
+    max-width: 100%;
+    height: auto;
+}
+
+.template-grid .div-1 img{
+    height: auto;
+    max-width: 90%;
+}
+
+.template-grid .div-2 h1{
+   font-size: 30px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+}
+
+.template-grid .div-2 p a{
+    color: rgb(27, 25, 25);
+}
+
+.template-grid .name{
+    padding-top: 30px;
+}
+
+.template-grid .size{
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgb(228, 212, 212);
+}
+
+.template-grid .price{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.template-grid h2{
+    font-size: 40px;
+    color: #d5a770;
+    padding-bottom: 20px;
+}
+
+.template-grid button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #d5a770;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select{
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    color: #d5a770;
+    outline: none;
+    font-weight: bold;
+}
+
+select option{
+    padding:20px;
+    outline: none;
+    color: #000000;
+}
+
+@media (max-width: 1000px) {
+    .template-grid{
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .template-grid .size{
+        padding-bottom: 20px;
+    }
+    .template-grid .div-1{
+         text-align: center;
+    }
+}
